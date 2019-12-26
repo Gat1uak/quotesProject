@@ -1,0 +1,61 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+html {
+   font-size: 62.5%;
+}
+body {
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: rgb(241, 157, 157);
+   color: black;
+   font-weight: 400;
+   text-transform: capitalize;
+   font-family: 'Courier New', Courier, monospace';
+}
+h2 {
+   margin-top: 2rem;
+   font-size: 2.8rem;
+   padding-bottom: 3rem;
+}
+h3 {
+   font-size: 1.8rem;
+   margin-top: 2rem;
+
+}
+.container {
+   text-align: center;
+   padding: 2rem;
+   border-radius: 5px;
+   background: white;
+   flex: 0 0 60%;
+}
+
+#quoteBtn {
+   border: none;
+   color: white;
+   background: red;
+   margin: 2.5rem;
+   padding: 1.8rem;
+   border-radius: 4px;
+   font-size: 1.8rem;
+   cursor: pointer;
+   font-weight: 400;
+}
+#quoteBtn:hover {
+   color: yellow;
+}
+#quoteAuthor {
+   padding: 2rem;
+
+}
+blockquote {
+   margin-top: 1.5rem;
+   background: whitesmoke;
+   border-left: 4px solid lightgray;
+   border-radius: 4px;
+   padding: 4rem;
+}
